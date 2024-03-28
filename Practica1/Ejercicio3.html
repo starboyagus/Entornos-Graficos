@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<div id="3a">3.a
+    <a name="arriba" id="arriba"> Esto es Arriba </a>
+    <p></p>
+
+    <a href="http://www.google.com.ar">Click aquí para ir a Google</a> 
+    <p>Es un enlace y te envia hacia la pagina google.com en la misma persta;a</p>
+
+    <a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+    <p>Es un enlace y te envia hacia la pagina google.com en una nueva pesta;a, se hace con el atributo 'target'</p>
+
+    <a href="http://www.google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+
+    <p>Es un enlace pero no te envia a ninguna pagina ya que le falta el mensaje</p>
+    </a>
+
+    <a href="#">Click aquí para ir a Google</a>
+    <p>es una redireccion de la pagina pero en su href no tiene un enlace en si, puede funcionar para redirigir hacia alguna pagina hecha dentro de el mismo html</p>
+
+    <a href="#arriba">Click aquí para volver arriba</a>
+    <p>cuando haces click te manda hacia donde esta especificado '#arriba#, lo cambie de orden para que se vea y se entienda en el navegador</p>
+</div>
+
+<div id="3b">3.b (le puse imagenes, anchura y altura para que se vea mejor el ejemplo)
+    <p><img src="img2.png" alt="imagen1" width="100px" height="100px" /><a href="http://www.google.com.ar">Click aquí</a></p>
+    <p> Le das click a la imagen y no pasa nada luego de las click en el texto y te redirige hacia la pagina google.com</p>
+
+    <p><a href="http://www.google.com.ar"><img src="img2.png" width="100px" height="100px" alt="imagen1" /></a> Click aquí</p>
+    <p> Le das click a la imagen y te ridirige hacia la pagina googe y cuando le das click al texto no te ridirige hacia ningun lugar ya que no esta dentro de el tag</p>
+
+    <p><a href="http://www.google.com.ar"><img src="img2.png" width="100px" height="100px" alt="imagen1" />Click aquí</a></p>
+    <p> Le das click a cualquiera de las cosas y te ridirige hacia la pagina google.com esto ya que estan los dos dentro del tag</p>
+    
+    <p><a href="http://www.google.com.ar"><img src="img2.png" width="100px" height="100px" alt="imagen1" /></a> 
+        <a href="http://www.google.com.ar">Click aquí</a></p>
+    <p> Lo mismo que el anterior pero en este caso hay dos diferentes tags, uno para la imagen y otro para el trxto</p>
+</div>
+
+<div id="3c">3.c 
+    <ul>
+        <li>xxx</li>
+        <li>yyy</li>
+        <li>zzz</li>
+    </ul>
+    <p> Este utiliza 'ul' que es una lista no ordenada por eso en la pagina aparece en puntos</p>
+
+    <ol>
+        <li>xxx</li>
+        <li>yyy</li>
+        <li>zzz</li>
+    </ol>
+    <p> Este utiliza 'ol' que es una lista ordenada, y esta ordenada segun su orden en el codigo</p>
+
+    <ol>
+        <li>xxx</li>
+    </ol>
+    <ol>
+        <li value="2">yyy</li>
+    </ol>
+    <ol>
+        <li value="3">zzz</li>
+    </ol>
+    <p> Esta tambien utiliza una lista ordenada, pero su contenido es separado y ordenado con 'value' en este caso "yyy" se le pone un 2 para que el segundo y "zzz" se le pone un 3</p>
+
+    <blockquote>
+        <p>
+        1. xxx<br />
+        2. yyy<br />
+        3. zzz</p>
+    </blockquote>
+    <p> utiliza 'blockquote' que es una lista en bloque que se utiliza para crear una seccion</p>
+</div>
+
+<div id="3d">3.d 
+    <table border="1" width="300">
+        <tr>
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+        </tr>
+        <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        </tr>
+        <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+        </tr>
+        </table>
+    <p> En este caso para las columnas se utiliza 'th' que son las cabeceras de la tabla </p>
+
+    <table border="1" width="300">
+        <tr>
+        <td><div align="center"><strong>Columna1</strong></div></td>
+        <td><div align="center"><strong>Columna2</strong></div></td>
+        </tr>
+        <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+        </tr>
+        <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+        </tr>
+        </table>
+    <p> En este caso para las columnas se utiliza 'td' que es una celda de la tabla y dentro se pone align para alinear en el centro el texto</p>
+</div>
+
+<div id="3e">3.e 
+    <table width="200">
+        <caption>Título</caption>
+        <tr>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+        <tr>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+    </table>
+    <p> En esta tabla para el titulo se usa una 'caption' para el titulo descriptivo </p>
+
+    <table width="200">
+        <tr>
+            <td colspan="3"><div align="center">Título</div></td>
+        </tr>
+        <tr>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+        <tr>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+    </table>
+    <p>En esta tabla el titulo se toma como una columna y se alinea en el centro</p>
+
+
+
+</div>
+
+</body>
+</html>
