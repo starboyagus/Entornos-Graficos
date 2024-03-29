@@ -140,9 +140,168 @@
         </tr>
     </table>
     <p>En esta tabla el titulo se toma como una columna y se alinea en el centro</p>
+</div>
+
+<div id="3f">3.f 
+    <table width="200">
+        <tr>
+            <td colspan="3"><div align="center">Título</div></td>
+        </tr>
+        <tr>
+            <td rowspan="2" bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+        <tr>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+    </table>
+
+    <p> Es una tabla que utiliza el 'rowspan' para fusionar, en este caso, 2 filas de 1 columna en una fila </p>
+
+    <table width="200">
+        <tr>
+            <td colspan="3"><div align="center">Título</div></td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+        <tr>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+            <td bgcolor="#dddddd">&nbsp;</td>
+        </tr>
+    </table>
+
+    <p> En este caso, en la tabla se esta utilizando un 'colspan' para fusionar distintas 2 columnas de una fila en una columna</p>
+</div>
+
+<div id="3g">3.g 
+    <table width="200" border="1">
+    <tr>
+    <td colspan="3"><div
+    align="center">Título</div></td>
+    </tr>
+    <tr>
+    <td colspan="2"rowspan="2">&nbsp;</td>
+    <td>&nbsp;</td>
+    </tr>
+    <tr>
+    <td width="50%">&nbsp;</td>
+    </tr>
+    </table>
+
+    <p> Esta tabla tiene un borde que es especificado en el elemento table con 'border'</p>
+
+    <table width="200" border="1" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="2"><div align="center">Título</div></td>
+        </tr>
+        <tr>
+            <td rowspan="2">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td width="50%">&nbsp;</td>
+        </tr>
+    </table>
+
+    <p> Esta tabla tambien tiene un borde pero esta tiene un borde negro que es especificadocon 'cellpadding' y 'cellspacing'</p>
+</div>
+
+<div id="3h">3.h 
+    <form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+        <fieldset>
+            <legend>LOGIN</legend>
+            Usuario: <input type="text" id="usu1" name="usu1" value="xxx" /><br />
+            Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+        </fieldset>
+        <input type="submit" id="boton1" name="boton1" value="Enviar" />
+    </form>
+
+    <p> Este 'form' define un formulario que el usuario puede interactuar para enviar informacion al servidor, en este caso es un login, con su usuario y contraseña </p>
+    <P> El input del usuario tiene un tipo de texto y el input de la Clave tiene un input de password que sirve para que se vea mas privado en el navegador</P>
+    <p> tambien en el form se le pone el method="post" que sirve para enviarle datos al servidor, en este caso bien usado</p>
+
+    <form id="form2" name="form2" action="" method="get" target="_blank">LOGIN<br />
+        <label>Usuario: <input type="text" id="usu2" name="usu2" /></label><br />
+        <label>Clave: <input type="text" id="clave2" name="clave2" /></label><br />
+        <input type="submit" id="boton2" name="boton2" value="Enviar" />
+    </form>
+
+    <p> En este form el tipo de la clave es un texto por lo tanto en el navegador va a mostrar lo que ingrese el usuario   </p>
+    <p> En este form se le pone el method="get" que sirve para conseguir datos del servidor </p>
+
+    <form id="form3" name="form3" action="mailto:xx@xx.com" enctype=text/plain method="post" target="_blank">
+        <fieldset>
+            <legend>LOGIN</legend>
+            Usuario: <input type="text" id="usu3" name="usu3" /><br />
+            Clave: <input type="password" id="clave3" name="clave3" />
+        </fieldset>
+        <input type="reset" id="boton3" name="boton3" value="Enviar" />
+    </form>
+
+    <p> Este form esta utilizando action="mailto" que se usa para designar una direccion o correo electronico y mandarle esos datos </p>
+</div>
+
+<div id="3i"> 3.i 
+    <p></p>
+    <label>Botón 1
+        <button type="button" name="boton1" id="boton1">
+        <img src="img3.png" alt="Botón con imagen " width="30" height="20" /><br />
+        <b>CLICK AQUÍ</b></button>
+    </label>
+    
+    <p> La etiqueta label en este caso se utiliza para un boton y en este caso se le pone una imagen y un texto dentro</p>
+
+    <label>Botón 2
+        <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
+        </label>
+
+    <p> En este caso el boton lo unico que tiene es un nombre</p>
+</div>
+
+<div id="3j"> 3.j 
+    <p></p>
+    <p><label><input type="radio" name="opcion" id="X" value="X" />X</label><br />
+        <label><input type="radio" name="opcion" id="Y" value="Y" />Y</label></p>
+
+    <p> En este caso la etiqueta label se utiliza para un boton de opciones, con un type='radio' que es el utilizado para las opciones, y con el mismo nombre para que se elija o una u otra </p>
+
+    <p><label><input type="radio" name="opcion1" id="X" value="X" />X</label><br />
+        <label><input type="radio" name="opcion2" id="Y" value="Y" />Y</label></p>
+    <p> En este caso los nombres son diferentes por lo tanto se pueden elegir las dos opciones al mismo tiempo </p>
+</div>
+
+<div id="3k">3.k 
+    <p></p>
+    <select name="lista">
+        <optgroup label="Caso 1">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+        <optgroup label="Caso 2">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+    </select>
+    <p> Este caso es una etiqueta select, que sirve para seleccionar una opcion, en este caso tenemos 2 casos, pero en la misma lista entonces se puede elegir una sola opcion </p>
 
 
+    <select name="lista[]" multiple="multiple">
+        <optgroup label=" Caso 1">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+        <optgroup label=" Caso 2">
+            <option>Mayo</option>
+            <option>Junio</option>
+        </optgroup>
+    </select>
 
+    <p> En esta lista es un array de elementos, tambien tiene un atributo 'multiple' que sirve para seleccionar cero o mas opciones de la lista </p>
 </div>
 
 </body>
