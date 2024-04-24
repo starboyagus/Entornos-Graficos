@@ -1,0 +1,20 @@
+:root{
+    font-family: system-ui;
+}
+
+p#normal {
+    font-family: arial,helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+*#destacado {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+#distinto {
+    background-color: #9EC7EB;
+    color: red;
+}
+

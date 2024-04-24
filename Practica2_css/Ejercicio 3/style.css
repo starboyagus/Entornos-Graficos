@@ -1,0 +1,22 @@
+:root{
+    font-family: system-ui;
+}
+
+p.quitar {
+    color: red;
+    }
+/* La clase quitar solamente tiene especificaciones para Parrafos */
+/* Su funcion es cambiar el color de la fuente a rojo */
+
+*.desarrollo {
+    font-size: 8px;
+}
+/* Esta clase al tener '*' sirve para cualquier elemento que tenga esta clase */
+/* Su funcion es cambiar el tamaño de la fuente */
+
+.importante {
+    font-size: 20px;
+}
+
+/* Esta clase al no tener nada tambien sirve para cualquier elemento que tenga esta */
+/* Su funcion es cambiar el tamaño de la fuente */

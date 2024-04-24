@@ -1,0 +1,21 @@
+* {color:green; }
+/* Cambia el color de la fuente a verde a todos los textos */
+
+a:link {color:gray }
+/* Al hyperlink que contiene un link se le cambia el color de la fuente a gris */
+
+a:visited{color:blue }
+/* Al hyperlink que su link ya fue visitado se le cambia el color de la fuente a azul */
+
+a:hover {color:fuchsia }
+/* Al hyperlink que su link esta siendo apuntado con el mouse se le cambia el color de la fuente a fucsia */
+
+a:active {color:red }
+/* Al hyperlink cuando es clickeado se le cambia el color de la fuente a rojo */
+
+p {font-family: arial,helvetica;font-size: 10px;color:black; }
+/* A todos los parrafos se le cambia la fuente a arial, su tama;o y su color a negro */
+
+.contenido{font-size: 14px;font-weight: bold; }
+/* a la clase contendido se le cambia el tama;o de la fuente y su 'peso' a negrita */
+/* aunque, el 'peso' no se le cambia ya que tiene un estilo asignado en el .html */

@@ -1,0 +1,37 @@
+:root{
+    font-family: system-ui;
+}
+
+h1 > em {
+    color: red
+}
+
+div > p > [href] {
+    color:black
+}
+
+div.ultimo > ul > li {
+    color: yellow
+}
+div.ultimo > ul > a{
+    color: blue
+}
+
+
+div > .importante {
+    color: green
+}
+div > h1.importante {
+    color: red;
+}
+
+h1[title] {
+    color: blue
+}
+
+ol > a:link {
+    color: blue
+}
+ol > a:visited {
+    color: violet
+}
