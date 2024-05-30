@@ -1,0 +1,25 @@
+*{
+    font-family: system-ui;
+    
+}
+
+fieldset{
+    border-radius: 10px;
+    background-color: antiquewhite
+}
+
+
+label{
+    font-weight: 700;
+    padding: 10px;
+}
+
+input {
+    border-radius: 5px;
+    background-color: white;
+}
+
+.enviar{
+    padding: 4px;
+    margin-left: 120px;
+}
