@@ -1,0 +1,38 @@
+*{
+    --blanco: #DBF2E8;
+    --negro: #050F0B;
+    --accent: #59D59F;
+
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.root{
+    background-color: var(--blanco);
+}
+
+.table{
+    background-color: var(--negro);
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: var(--blanco);
+}
+
+a{
+    color: var(--blanco);
+    animation: ease-in-out;
+    animation-duration: .5s;
+}
+
+a:hover{
+    color: var(--accent);
+    animation: ease-in-out;
+    animation-duration: .5s;
+
+}
+
+.title{
+    font-weight: 700;
+    text-align: center;
+}
