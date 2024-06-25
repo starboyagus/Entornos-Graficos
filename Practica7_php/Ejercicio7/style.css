@@ -1,0 +1,47 @@
+:root{
+    --NavyRoyal: #112c70;
+    --CyberBerry: #5b58eb;
+    --OsakaNeon: #BB63ff;
+    --TropicGem: #56e1e9;
+    --Merope: #0A2353;
+
+}
+
+.link_catalogo:hover{
+    transition: .2s;
+    color: var(--CyberBerry);
+    text-decoration: none;
+}
+
+.link_catalogo{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.carrito_h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:larger;
+    color: #fafafa;
+}
+
+.link_carrito{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.link_carrito:hover{
+    transition: .2s;
+    color: var(--OsakaNeon);
+    text-decoration: none;
+}
+
+.prod{
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.prod2{
+    color: #212121;
+    text-decoration: none;
+}

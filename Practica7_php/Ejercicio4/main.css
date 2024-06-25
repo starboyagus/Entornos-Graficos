@@ -1,0 +1,55 @@
+
+
+
+.titulo, .enunciado {
+    margin: 0;
+}
+
+.enunciado {
+    text-align: justify;
+}
+
+.form-fieldset {
+    width: 20rem;
+    padding: 10px;
+    border: 1px solid rgb(179, 179, 180);
+}
+
+
+.new-container {
+    border: 1px solid rgb(179, 179, 180);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.new-text {
+    text-align: justify;
+}
+
+.link{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.link:hover{
+    transition: .2s;
+    color: #56e1e9;
+}
+
+.boton{
+    border-radius: 20px;
+    width: 20rem;
+    border-color: #fafafa;
+    border-style: solid;
+    color:#fafafa;
+    background-color: transparent;
+}
+
+.boton:hover{
+    background-color: #56e1e9;
+    transition: .2s;
+    border-color: #56e1e9;
+    color: #212121;
+
+}
